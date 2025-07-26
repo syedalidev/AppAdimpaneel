@@ -1,0 +1,622 @@
+
+body{
+  margin: 0;
+}
+
+.emailinput {
+   display: flex;
+  justify-content: center;
+   align-items: center;      
+  text-align: center;
+  
+
+}
+
+.holder{
+  width: 21em;
+
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-left: 34em;
+}
+
+#main_logo{
+   display: flex;
+  justify-content: center;
+   align-items: center;      
+  text-align: center;
+}
+
+.password_inp{
+  margin: 17px;
+  display: flex;
+  justify-content: center;
+   align-items: center;      
+  text-align: center;
+}
+
+
+#btnlogin{
+  position: relative;
+  left: 39.3rem;
+  width: 29 em;
+ 
+}
+
+
+
+/* button{
+  position: relative;
+  left: 39.3rem;
+  width: 29 em;
+ 
+}
+ */
+
+
+.header_container{
+  background-color: aqua;
+}
+
+
+
+
+.navbar {
+  color: white;
+  background-color:  black;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+     position: sticky;
+     top: 0;
+}
+
+.brand{
+     font-size: 1.5em;
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #58ff04;
+
+     
+}
+
+
+.footer {
+   position: relative; /* or remove position completely */
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+
+.footer-links a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: chocolate;
+}
+
+
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 210px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+} 
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #58ff04;
+  color: black;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 5em;
+  padding: 50px;
+  flex: 1;
+}
+
+.usersname{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black ;
+  color: #58ff04  ;
+}
+
+.userslist li {
+                                    /* padding: 20px 20px 30px;
+                                    display: flex;
+                                  list-style: none;
+                                    border: solid 2px navy; */
+                                     
+  border: 2px solid  whitesmoke;
+  list-style: none;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: ghostwhite ;
+  width: 90%;
+  box-shadow: 0 2px 6px gray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+} 
+
+
+.user_heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+
+
+
+#user_delete{
+  margin-left: 30em;
+  padding: 10px 30px;
+  
+}
+
+#user_update{
+  
+  margin-left: 20px;
+  padding: 10px 30px; 
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card1{
+  background-color: pink;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+
+.card2{
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card3{
+  background-color: lightsalmon;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+}
+
+
+
+
+/* //////produsts 
+ */
+
+
+
+ /* ProductAddForm.css */
+
+.product-form {
+  
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 3px solid #ccc;
+  border-radius: 30px;
+  background: black;
+  color: white;
+  border-color: lawngreen;
+  
+}
+
+.product-form h2 {
+  margin-bottom: 1rem;
+    margin-left: 30px;
+}
+
+.product-input {
+  display: block;
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+.product-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+    margin-left: 30px;
+}
+
+.product-button:hover {
+  background-color: #218838;
+}
+
+.delete-button{
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.productlist h2{
+ text-align: center;   
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: #111827;
+ color: #58ff04;
+}
+
+
+.appointment{
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #58ff04;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+.table-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead {
+  background-color: #3498db;
+  color: white;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.status.pending {
+  color: #f39c12;
+}
+
+.status.approved {
+  color: #2ecc71;
+}
+
+.status.rejected {
+  color: #e74c3c;
+}
+
+.approve-btn,
+.reject-btn {
+  padding: 6px 12px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.approve-btn {
+  background-color: #27ae60;
+}
+
+.reject-btn {
+  background-color: #c0392b;
+}
+
+.disabled-action {
+  color: #888;
+  font-size: 12px;
+}
+
+.helprequest{
+  width: 100%;
+  padding: 20px;
+  background-color:black;
+  color: #58ff04;
+  text-align: center;
+}
+
+
+
+
+.help-requests-container {
+  padding: 2rem;
+  background-color: #f9f9fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.help-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.help-table th,
+.help-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.help-table th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.status {
+  padding: 0.4em 0.7em;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.status.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn.approve {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn.approve:hover {
+  background-color: #218838;
+}
+
+.btn.reject {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.reject:hover {
+  background-color: #c82333;
+}
+
+
+
+
+.appointment-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9fb;
+}
+
+.appointment-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.appointment-table-wrapper h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.appointment-table th,
+.appointment-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.appointment-table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.status {
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn.approve {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn.approve:hover {
+  background-color: #218838;
+}
+
+.btn.reject {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.reject:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
